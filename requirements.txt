@@ -98,7 +98,7 @@ PyMySQL==1.1.1
 pyparsing==2.4.7
 pypdf==4.2.0
 pypdfium2==4.30.0
-python-apt==2.4.0+ubuntu3
+# python-apt==2.4.0+ubuntu3
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-json-logger==2.0.7
