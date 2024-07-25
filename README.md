@@ -110,15 +110,6 @@ skateboard-ecommerce/
 └── ...
 </pre>
 
-<h2 align="center">🤝 Contribution</h2>
-
-<p>Les contributions sont les bienvenues ! Pour signaler des bugs ou proposer des améliorations :</p>
-
-<ul>
-  <li><a href="https://github.com/faudotrina/skateboard/issues">Soumettez une issue</a></li>
-  <li><a href="https://github.com/faudotrina/skateboard/pulls">Faites une pull request</a></li>
-</ul>
-
 <h2 align="center">👀 Aperçu</h2>
   <img src="https://github.com/faudotrina/Website-Skateboard/blob/main/images/home1.PNG"/>
   <img src="https://github.com/faudotrina/Website-Skateboard/blob/main/images/home.PNG"/>
