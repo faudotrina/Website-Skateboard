@@ -1,62 +1,97 @@
-# Conception d'un Site E-commerce de Skateboard
+<h2 align="center">🛹 Conception d'un Site E-commerce de Skateboard</h2>
 
-Bienvenue dans le dépôt GitHub de mon projet de site e-commerce de skateboard ! Ce projet individuel a été développé dans le cadre de mes études pour démontrer mes compétences en développement web full stack en utilisant des technologies modernes. Ce document décrit les différentes composantes du projet, ainsi que les instructions pour installer et exécuter l'application localement.
+<p align="center">
+  <img src="https://via.placeholder.com/1200x300?text=Skateboard+E-Commerce" alt="Skateboard E-Commerce Banner" />
+</p>
 
-Technologies Utilisées
-Backend : Python, Django
-Base de Données : MySQL
-Frontend : Next.js, Tailwind CSS
-Gestion de Contenu : Django Admin
+<p>Bienvenue dans le dépôt GitHub de mon projet de site e-commerce de skateboard ! Ce projet a été développé pour démontrer mes compétences en développement web full stack en utilisant des technologies modernes. Ce document fournit des détails sur les composants du projet, ainsi que des instructions pour l'installation et l'exécution locales.</p>
 
-# Fonctionnalités Principales
-Catalogue de Produits : Affichage des skateboards disponibles avec descriptions, prix et images.
-Gestion des Utilisateurs : Inscription, connexion et gestion des profils utilisateurs.
-Interface d'Administration : Gestion des produits, des utilisateurs et des commandes.
-Installation et Configuration
-Suivez les étapes ci-dessous pour installer et configurer le projet sur votre machine locale.
+<h2 align="center">🚀 Technologies Utilisées</h2>
 
-# Prérequis
-Python 3.x
-Node.js et npm
-MySQL
+<table>
+  <tr>
+    <th>Backend</th>
+    <th>Base de Données</th>
+    <th>Frontend</th>
+    <th>Gestion de Contenu</th>
+  </tr>
+  <tr>
+    <td>Python, Django</td>
+    <td>MySQL</td>
+    <td>Next.js, Tailwind CSS</td>
+    <td>Django Admin</td>
+  </tr>
+</table>
 
-# Étapes d'Installation
-Cloner le dépôt
-Copier le code
-git clone https://github.com/faudotrina/skateboard.git
-cd skateboard-ecommerce
+<h2 align="center">🛠️ Fonctionnalités Principales</h2>
 
-# Configuration du Backend
-Créez un environnement virtuel et activez-le :
-Copier le code
-python -m venv env
-source env/bin/activate  # Sur Windows: env\Scripts\activate
+<ul>
+  <li><strong>Catalogue de Produits</strong> : Affichage des skateboards disponibles avec descriptions, prix et images.</li>
+  <li><strong>Gestion des Utilisateurs</strong> : Inscription, connexion et gestion des profils utilisateurs.</li>
+  <li><strong>Interface d'Administration</strong> : Gestion des produits, des utilisateurs et des commandes.</li>
+</ul>
 
-# Installez les dépendances Python :
-Copier le code
-pip install -r requirements.txt
-Configurez la base de données MySQL et mettez à jour les informations de connexion dans settings.py.
+<h2 align="center">📥 Installation et Configuration</h2>
 
-# Appliquez les migrations :
-Copier le code
-python manage.py migrate
+<p>Suivez les étapes ci-dessous pour installer et configurer le projet sur votre machine locale.</p>
 
-# Configuration du Frontend
-Accédez au répertoire frontend et installez les dépendances :
-Copier le code
-cd frontend
-npm install
+<h3>Prérequis</h3>
 
-# Lancez le serveur de développement :
-Copier le code
-npm run dev
-Lancer le Serveur Backend
+<p>Assurez-vous d'avoir les outils suivants installés sur votre machine :</p>
 
-# Retournez au répertoire principal et lancez le serveur Django :
-Copier le code
-python manage.py runserver
+<ul>
+  <li><a href="https://www.python.org/downloads/">Python 3.x</a></li>
+  <li><a href="https://nodejs.org/en/">Node.js</a> et <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">npm</a></li>
+  <li><a href="https://www.mysql.com/">MySQL</a></li>
+</ul>
 
-## Arborescence du Projet
+<h3>Étapes d'Installation</h3>
+
+<ol>
+  <li>
+    <strong>Cloner le dépôt</strong> :
+    <pre><code>git clone https://github.com/faudotrina/skateboard.git</code></pre>
+    <pre><code>cd skateboard-ecommerce</code></pre>
+  </li>
+  <li>
+    <strong>Configuration du Backend</strong> :
+    <ul>
+      <li>Créez un environnement virtuel et activez-le :
+        <pre><code>python -m venv env</code></pre>
+        <pre><code>source env/bin/activate  # Sur Windows: env\Scripts\activate</code></pre>
+      </li>
+      <li>Installez les dépendances Python :
+        <pre><code>pip install -r requirements.txt</code></pre>
+      </li>
+      <li>Configurez la base de données MySQL et mettez à jour les informations de connexion dans <code>settings.py</code>.</li>
+      <li>Appliquez les migrations :
+        <pre><code>python manage.py migrate</code></pre>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <strong>Configuration du Frontend</strong> :
+    <ul>
+      <li>Accédez au répertoire frontend et installez les dépendances :
+        <pre><code>cd frontend</code></pre>
+        <pre><code>npm install</code></pre>
+      </li>
+      <li>Lancez le serveur de développement :
+        <pre><code>npm run dev</code></pre>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <strong>Lancer le Serveur Backend</strong> :
+    <pre><code>python manage.py runserver</code></pre>
+  </li>
+</ol>
+
+<h2 align="center">📂 Arborescence du Projet</h2>
+
+<p align="center">Voici la structure du projet :</p>
+
+<pre>
 skateboard-ecommerce/
 ├── backend/mysite
 │   ├── manage.py
@@ -73,3 +108,14 @@ skateboard-ecommerce/
 ├── README.md
 ├── requirements.txt
 └── ...
+</pre>
+
+<h2 align="center">🤝 Contribution</h2>
+
+<p>Les contributions sont les bienvenues ! Pour signaler des bugs ou proposer des améliorations :</p>
+
+<ul>
+  <li><a href="https://github.com/faudotrina/skateboard/issues">Soumettez une issue</a></li>
+  <li><a href="https://github.com/faudotrina/skateboard/pulls">Faites une pull request</a></li>
+</ul>
+
