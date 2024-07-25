@@ -73,6 +73,3 @@ skateboard-ecommerce/
 ├── README.md
 ├── requirements.txt
 └── ...
-
-# Contribution
-Ce projet est individuel et fait partie de mon parcours pédagogique. Les contributions externes ne sont pas acceptées, mais les commentaires et suggestions sont les bienvenus. N'hésitez pas à ouvrir des issues pour toute question ou suggestion.
