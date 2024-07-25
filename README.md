@@ -1,14 +1,14 @@
 <h2 align="center">🛹 Conception d'un Site E-commerce de Skateboard</h2>
 
 <p align="center">
-  <img src="https://via.placeholder.com/1200x300?text=Skateboard+E-Commerce" alt="Skateboard E-Commerce Banner" />
+  <img src="https://github.com/faudotrina/Website-Skateboard/blob/main/images/skate.jpg" alt="Skateboard E-Commerce Banner" />
 </p>
 
-<p>Bienvenue dans le dépôt GitHub de mon projet de site e-commerce de skateboard ! Ce projet a été développé pour démontrer mes compétences en développement web full stack en utilisant des technologies modernes. Ce document fournit des détails sur les composants du projet, ainsi que des instructions pour l'installation et l'exécution locales.</p>
+<p>Bienvenue dans le dépôt GitHub de mon projet de site e-commerce de skateboard ! Ce document fournit des détails sur les composants du projet, ainsi que des instructions pour l'installation et l'exécution locales.</p>
 
 <h2 align="center">🚀 Technologies Utilisées</h2>
 
-<table>
+<table align="center">
   <tr>
     <th>Backend</th>
     <th>Base de Données</th>
@@ -119,3 +119,8 @@ skateboard-ecommerce/
   <li><a href="https://github.com/faudotrina/skateboard/pulls">Faites une pull request</a></li>
 </ul>
 
+<h2 align="center">👀 Aperçu</h2>
+  <img src="https://github.com/faudotrina/Website-Skateboard/blob/main/images/home1.PNG"/>
+  <img src="https://github.com/faudotrina/Website-Skateboard/blob/main/images/home.PNG"/>
+  <img src="https://github.com/faudotrina/Website-Skateboard/blob/main/images/login.PNG"/>
+  <img src="https://github.com/faudotrina/Website-Skateboard/blob/main/images/register.PNG"/>
