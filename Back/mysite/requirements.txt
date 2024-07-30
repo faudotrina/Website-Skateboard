@@ -1,39 +1,52 @@
-asgiref==3.8.1
-blinker==1.4
-cryptography==3.4.8
-dbus-python==1.2.18
-distro==1.7.0
-distro-info===1.0
-Django==4.0
-djangorestframework==3.15.1
-djangorestframework-simplejwt==5.3.1
+asgiref==latest
+blinker==latest
+yptography==latest
+dbus-python==latest
+
+distro==latest
+distro-info==latest
+jango==latest
+angorestframework==latest
+
+djangorestframework-simplejwt==latest
 django-cors-headers
-httplib2==0.20.2
-importlib-metadata==4.6.4
-jeepney==0.7.1
-keyring==23.5.0
-launchpadlib==1.10.16
-lazr.restfulclient==0.14.4
-lazr.uri==1.0.6
-more-itertools==8.10.0
-netifaces==0.11.0
-numpy==1.24.4
-oauthlib==3.2.0
-PyGObject==3.42.1
-PyJWT==2.3.0
-PyMySQL==1.1.1
-pyparsing==2.4.7
-python-dotenv==1.0.1
-PyYAML==5.4.1
-rest-framework-simplejwt==0.0.2
-SecretStorage==3.3.1
-six==1.16.0
-sqlparse==0.5.0
-systemd-python==234
-torch==1.12.1
-typing_extensions==4.11.0
-# ubuntu-advantage-tools==27.12
-# ufw==0.36.1
-# unattended-upgrades==0.1
-# wadllib==1.3.6
-# zipp==1.0.0
+httplib2==latest
+
+importlib-metadata==latest
+jeepney==latest
+keyring==latest
+
+launchpadlib==latest
+lazr.restfulclient==latest
+
+lazr.uri==latest
+more-itertools==latest
+
+netifaces==latest
+
+numpy==latest
+
+oauthlib==latest
+PyGObject==latest
+
+PyJWT==latest
+PyMySQL==latest
+pyparsing==latest
+python-dotenv==latest
+PyYAML==latest
+rest-framework-simplejwt==latest
+SecretStorage==latest
+six==latest
+
+sqlparse==latest
+systemd-python==latest
+torch==latest
+
+typing_extensions==latest
+
+# ubuntu-advantage-tools==latest
+# ufw==latest
+
+# unattended-upgrades==latest
+wadllib==latest
+# zipp==latest
